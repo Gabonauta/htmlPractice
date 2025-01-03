@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Portafolio de Alex Espinosa" />
+    <meta name="keywords" content="portafolio, Alex Espinosa" />
+    <meta name="author" content="Alex Espinosa" />
+    <meta name="revision" content="1.0" />
+    <meta name="distribution" content="global" />
+    <meta name="theme-color" content="#09F" />
+    <link rel="icon" type="image/jpg" href="images/alex.jpg" />
+
+    <!-- open graph -->
+    <meta property="og:title" content="Portafolio Alex Espinosa" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Portafolio de Alex Espinosa" />
+    <meta property="og:image" content="images/alex.jpg" />
+    <meta property="og:image:alt" content="Alex Espinosa" />
+
+    <link rel="alternate" href="" hreflang="es-ES" />
+    <link rel="canonical" href="https://alexespinosa.dev" />
+    <title>Portafolio Alex Espinosa</title>
+  </head>
+  <body>
+    <header>
+        <h1>Portafolio Alex Espinosa</h1>
+        <nav>
+          <a href="#experiencia">Experiencia</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="https://google.com" target="_blank" rel="noreferrer">Navegar</a>
+        </nav>
+    
+    </header>
+    <audio controls src="https://www.elongsound.com/images/mp3/perro_pequeno_ladrando_1.mp3"></audio>
+    <video autoplay loop muted src="https://media.istockphoto.com/id/1954855689/video/hands-home-and-tablet-screen-for-fashion-e-commerce-search-catalog-and-online-shopping-cart.mp4?s=mp4-640x640-is&k=20&c=b4ovFi8moY1QqvGhGQY5GjPyL8btQPd-zoEB2nNf8xU="></video>
+    <main>
+    <p>
+      Ingeniero de software con <strong>+3 años de experiencia </strong> en
+      equipos multifuncionales
+    </p>
+
+    <h2 id="experiencia">Experiencia</h2>
+
+    <ul>
+      <li>Desarrollador de aplicaciones móviles - Ecx-Labs - 2021 - 2022</li>
+      <li>Desarrollo de aplicaciones móviles - CoreApps - 2022 - Actualidad</li>
+    </ul>
+
+    <img
+      src="images/alex.jpg"
+      alt="Alex Espinosa"
+      width="250"
+      height="200"
+      title="Alex Espinosa"
+    />
+    <h2 id="proyectos">Proyectos</h2>
+    <aside>
+      <header>
+        <h3>Tecnologías favoritas</h3>
+        <ol>
+          <li>Flutter</li>
+          <li>Python</li>
+          <li>Javascript</li>
+          <li>SQL</li>
+      </header>
+    </aside>
+
+    <section>
+        <article>
+            <header>
+                <h3>Sitio web de noticias</h3>
+                
+            </header>
+            <p>Sitio web que consume un api de noticias de USA</p>
+            <footer>
+                <small>Tecnologías utilizadas: Flutter</small>
+            </footer>
+        </article>
+        <article>
+          <header>
+              <h3>Curso minu HTML</h3>
+              
+          </header>
+          <p>Práctica de HTML</p>
+          <img style="width: 100%; aspect-ratio: 110/67;"  loading="lazy" src="images/cursohtml.png" alt="Captura del curso de minu de HTML" />
+          <iframe style="width: 100%; aspect-ratio: 16/9;" src="https://www.youtube.com/embed/3nYLTiY5skU?si=mm1Rgm5bWfIJVXlx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <footer>
+              <small>Tecnologías utilizadas: Flutter</small>
+          </footer>
+      </article>
+      <article>
+        <header>
+            <h3>Sitio web de noticias</h3>
+            
+        </header>
+        <button id="abrir">abrir</button>
+        <dialog id="dialogo">
+            <h1>¡Hola!</h1>
+            <button id="cerrar">cerrar</button>
+        </dialog>
+        <script>
+          window.abrir.addEventListener('click', () => {
+            window.dialogo.showModal();
+          });
+
+          window.cerrar.addEventListener('click', () => {
+            window.dialogo.close();
+          });
+            
+        </script>
+        <p>Sitio web que consume un api de noticias de USA</p>
+        <footer>
+            <small>Tecnologías utilizadas: Flutter</small>
+        </footer>
+    </article>
+    </section>
+    <section>
+        <h2>Formulario de contacto</h2>
+        <form method="post" action="/">
+            
+            <fieldset>
+                <legend>Información personal</legend>
+                <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required />
+                </div>
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo" required />
+            </fieldset>
+            <fieldset>
+                <legend>Información de adicional</legend>
+                <div>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required />
+                </div>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    </main>
+    <footer>
+        <p>Copyright © 2025 - El portafolio del loco b</p>
+        <a href="mailto:alexef1998@live.com">Envíame un correo</a>
+        <a href="tel:+593995538496">Llamame por teléfono</a>
+        <a href="whatsapp://send?Hola quiero preguntar por...">Envíame un mensaje de whatsapp</a>
+
+  </body>
+</html>
